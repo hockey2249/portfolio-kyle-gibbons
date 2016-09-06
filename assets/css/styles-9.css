@@ -489,7 +489,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     top: 0;
     left: 0;
     background-color: white;
-    background: url('../images/bg-portfolio.jpg') no-repeat center center;
+    background: url('../images/kyle-gibbons-background.jpeg') no-repeat center center;
+    background-color: rgba(0,0,0,.5);
     background-size: cover;
     will-change: transform; 
     z-index: -9999999;
