@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+	<head>
+
+		<!-- ==============================================
+		Title and Meta Tags
+		=============================================== -->
+		<meta charset="utf-8">
+		<title>Kyle Gibbons Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<!-- ==============================================
+		CSS
+		=============================================== -->    
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/flexslider.css">
+		<link rel="stylesheet" href="assets/css/styles-9.css">
+		
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+		<!-- ==============================================
+		JS
+		=============================================== -->
+			
+		<!--[if lt IE 9]>
+			<script src="assets/js/libs/respond.min.js"></script>
+		<![endif]-->
+		
+		<script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
+		
+	</head>
+  
+	<body data-spy="scroll" data-target="#main-nav" data-offset="200">
+	
+		<!--=== PAGE PRELOADER ===-->
+		<div id="page-loader"><span class="page-loader-gif"></span></div>
+		
+	
+		<!-- ==============================================
+		MAIN NAV
+		=============================================== -->
+		<div id="main-nav" class="navbar navbar-fixed-top">
+			<div class="container">
+			
+				<div class="navbar-header">
+				
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+					
+					<!-- ======= LOGO ========-->
+					<a class="navbar-brand scrollto" href="#home">Kyle Gibbons</a>
+				
+				</div>
+				
+				<div id="site-nav" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="sr-only">
+							<a href="#home" class="scrollto">Home</a>
+						</li>
+						<li>
+							<a href="#services" class="scrollto">What I Do</a>
+						</li>
+						<li>
+							<a href="#about" class="scrollto">About Me</a>
+						</li>
+						<li>
+							<a href="#portfolio" class="scrollto">My Works</a>
+						</li>
+						<li>
+							<a href="#contact" class="scrollto">Contact Me</a>
+						</li>
+					</ul>
+				</div><!--End navbar-collapse -->
+				
+			</div><!--End container -->
+			
+		</div><!--End main-nav -->
+		
+		<!-- ==============================================
+		HEADER
+		=============================================== -->
+		<header id="home">
+		
+			<div class="container text-center">
+			
+				<p>Welcome to</p>
+				
+				<h1>Kyle Gibbons Portfolio</h1>
+				
+				<p>Web Developer / Digital Marketer</p>
+			
+			</div>
+			
+		</header><!--End header -->
+		
+		<!-- ==============================================
+		SERVICES
+		=============================================== -->
+		<section id="services" class="add-padding">
+		
+			<div class="container">
+				
+				<h1 class="section-title big-text scrollimation fade-up">Skills</h1>
+				
+				<div class="row">
+				
+					<div class="col-sm-6 service-item color3 scrollimation scale-in">
+					
+						<div class="service-icon"><i class="fa fa-lightbulb-o"></i></div>
+						
+						<h3>Digital Marketing</h3>
+						
+						<p>Paid Search (PPC), Search Engine Optimization (SEO), Display Advertising, Facebook Advertising, UI/UX, Web Analytics, Conversion Optimization (A/B testing), Project Management, Google Analytics, Google Tag Manager, Google Webmaster tools, Screaming Frog and MOZ.</p>
+						
+						
+					</div>
+				
+					<div class="col-sm-6 service-item color1 scrollimation scale-in d1">
+					
+						<div class="service-icon"><i class="fa fa-desktop "></i></div>
+						
+						<h3>Web Development</h3>
+						
+						<p>HTML, CSS, JavaScript, Node, Bootstrap, Express, Angular, Sinatra, Mongoose, EJS, jQuery, Mongo, PSQL, RESTful JSON API, AJAX, and Ruby on Rails.</p>
+						
+						
+					</div>
+				</div>
+				
+			</div>
+		
+		</section>
+
+		<!-- ==============================================
+		ABOUT
+		=============================================== -->
+		<section id="about" class="add-padding bg-color2">
+		
+			<div class="container">
+				
+				<div class="row">
+				
+					<div class="col-sm-6 scrollimation fade-right d1">
+					
+						<img class="img-responsive polaroid" src="assets/images/header-bg.jpg" alt="" />
+					
+					</div>
+					
+					<div class="col-sm-6 scrollimation fade-left d3">
+					
+						<h1 class="big-text">I am <br/>Kyle Gibbons </h1>
+						
+						<p class="lead">I grew up in Vermont, and moved out to Denver almost two years ago. I have a Masters of Business Administration, from Champlain College.</p>
+					
+						<p>I’m passionate about digital marketing and web development. I’ve developed full stack applications and launched large digital marketing campaigns for clients. I love what I do, and enjoy learning new technologies while building on ones I already know.</p>
+					
+					</div>
+				
+				</div>
+				
+			</div>
+		
+		</section>
+	
+		<!-- ==============================================
+		PORTFOLIO
+		=============================================== -->
+		<section id="portfolio" class="add-padding">
+		
+			<div class="container">
+				
+				<h1 class="big-text text-center scrollimation fade-in">My Works</h1>
+				
+				<!--==== Portfolio Filters ====-->
+				<div id="filter-works">
+					<ul>
+						<li class="active scrollimation fade-right d1">
+							<a href="#" data-filter="*">All</a>
+						</li>
+						
+					</ul>
+				</div><!--End portfolio filters -->
+				
+				<!--==== Project Preview ====-->
+				<div id="project-preview">
+				
+					<span class="close-preview">&times;</span>
+				
+					<div id="project-slider" class="flexslider"></div>
+					
+					<h1 id="project-title"></h1>
+				
+					<div id="project-content"></div>
+				
+				</div><!--Project Preview -->
+				
+			</div>
+		
+			<div class="container masonry-wrapper">
+			
+				<div id="projects-container">
+				
+					<!-- ==============================================
+					SINGLE PROJECT ITEM
+					=============================================== -->	
+					<article class="project-item illustration">
+						
+						<img class="img-responsive project-image" src="assets/images/higher-markets.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">Higher Markets</h2><!--Project Title -->
+							<p>Digital Marketing Website</p><!--Project Subtitle -->
+						</div>
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/higher-markets-slide-one.png,assets/images/higher-markets-slide-two.png" >
+						
+							<p>At Higher Markets we strive to help promote your business through different digital channels by using an analytical, targeted approach. We will be with you every step of the way, helping you launch, manage, and grow your business through diversified digital channels.</p>
+
+							<p>With an expertise in website management, we can help improve your customers experience and provide your company with a strategy to help improve ROI. Our graphic design team can help your promote your business through creative assets built around your needs, so you can effectively tell your brand story. Please feel free to contact us if you'd like to bounce ideas off of us even if you're not a client. We're passionate about what we do and are here to help bring small businesses to the next level.</p>
+
+							<p>Along with the website, Higher Markets has a user portal where clients can log in and view customized charts coming direct from their Good Analytics account.</p>
+							
+							<p>Server</p>
+								<ul>
+								  <li>Digital Ocean</li>
+								  <li>Nginex</li>
+								  <li>pm2</li>
+								</ul>
+
+							<p>Technologies/Framworks Implemented</p>
+								<ul>
+								  <li>JavaScript</li>
+								  <li>AJAX</li>
+								  <li>jQuery</li>
+								  <li>Node</li>
+								  <li>Express</li>
+								  <li>Embeded JavaScript</li>
+								  <li>Chartjs</li>
+								  <li>D3</li>
+								  <li>HTML</li>
+								  <li>CSS</li>
+								  <li>SASS</li>
+								  <li>Bootstrap</li>
+								</ul>
+
+							<p>API's Inegrated</p>
+								<ul>
+								  <li>Passport: Local Strategy and passport-google-oauth2h</li>
+								  <li>Google Analytics API</li>
+								  <li>Express Mailer</li>
+								</ul>
+							<p class="text-center"><a class="btn btn-color1" href="http://highermarkets.co/" target=_blank><i class="fa fa-arrow-right"></i>Visit Website</a></p>
+						
+						</div>
+						
+					</article>
+					<!-- ==============================================
+					END PROJECT ITEM
+					=============================================== -->						
+					
+					<article class="project-item identity logo">
+						
+						<img class="img-responsive project-image" src="assets/images/playback-app.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">Playback</h2><!--Project Title -->
+							<p>Music Memories</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/playback-app-slide-one.png,assets/images/playback-app-slide-two.png" >
+						
+							<p>Playback allows its users to add recent music memories in a journal format. Users login through Facebook with the intent of eventually being able to share their music memories with friends.</p>
+							<p>Technologies/Framworks Implemented</p>
+								<ul>
+								  <li>JavaScript</li>
+								  <li>AJAX</li>
+								  <li>jQuery</li>
+								  <li>Ruby on Rails</li>
+								  <li>Embeded Ruby</li>
+								  <li>HTML</li>
+								  <li>CSS</li>
+								  <li>SASS</li>
+								  <li>Bootstrap</li>
+								</ul>
+
+							<p>API's Inegrated</p>
+								<ul>
+								  <li>AuthO</li>
+								  <li>Facebook</li>
+								</ul>
+							<p class="text-right"><a class="btn btn-color1" href="https://playback-app.herokuapp.com/" target=_blank><i class="fa fa-arrow-right"></i>Visit Website</a></p>	
+						</div>
+						
+					</article><!--End Project Item -->
+
+					<article class="project-item illustration">
+						
+						<img class="img-responsive project-image" src="assets/images/pokemon.jpg"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">Pokemon Go</h2><!--Project Title -->
+							<p>Pokemon Go Map</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/pokemon-slide-one.png,assets/images/pokemon-side-two.png" >
+						
+							<p>This application allows users to add pokemon places on a map where they found pokemon and allows them to add places where pokemon gyms are located. Users have the ability to delete pokemon gyms, but do not have the ability to delete pokemon that were found.</p>
+							
+							<p>Technologies/Framworks Implemented</p>
+								<ul>
+								  <li>JavaScript</li>
+								  <li>AJAX</li>
+								  <li>jQuery</li>
+								  <li>Sinatra</li>
+								  <li>Embeded Ruby</li>
+								  <li>HTML</li>
+								  <li>CSS</li>
+								  <li>PostgresSQL</li>
+								  <li>Bootstrap</li>
+								</ul>
+							<p class="text-right"><a class="btn btn-color1" href="https://project-2-pokemon.herokuapp.com/index" target=_blank><i class="fa fa-arrow-right"></i>Visit Website</a></p>	
+							
+						</div>
+						
+					</article><!--End Project Item -->
+
+	
+		</section>
+
+			
+		<!-- ==============================================
+		CONTACT
+		=============================================== -->
+		<section id="contact" class="add-padding">
+		
+			<div class="container text-center">
+				
+				<div class="row">
+				
+					<div class="col-sm-6 col-md-5 text-right scrollimation fade-up d1">
+					
+						<h1 class="big-text">Contact Me</h1>
+						
+						<p class="lead">Please feel free to send me a message if you have any questions about my projects. I will be updating my website as more projects are completed, and I’m always available to take on additional projects.</p>
+					
+					</div>
+				
+					<!--=== Contact Form ===-->
+
+					<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="contact.php" method="post" novalidate>
+						
+						<div class="form-group">
+						  <label class="control-label" for="contact-name">Name</label>
+						  <div class="controls">
+							<input id="contact-name" name="contactName" placeholder="Your name" class="form-control requiredField" type="text" data-error-empty="Please enter your name">
+							<i class="fa fa-user"></i>
+						  </div>
+						</div><!-- End name input -->
+						
+						<div class="form-group">
+						  <label class="control-label" for="contact-mail">Email</label>
+						  <div class=" controls">
+							<input id="contact-mail" name="email" placeholder="Your email" class="form-control requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+							<i class="fa fa-envelope"></i>
+						  </div>
+						</div><!-- End email input -->
+						
+						<div class="form-group">
+						  <label class="control-label" for="contact-message">Message</label>
+							<div class="controls">
+								<textarea id="contact-message" name="comments"  placeholder="Your message" class="form-control requiredField" rows="6" data-error-empty="Please enter your message"></textarea>
+								<i class="fa fa-comment"></i>
+							</div>
+						</div><!-- End textarea -->
+						
+						<p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
+						<input type="hidden" name="submitted" id="submitted" value="true" />
+						
+					</form><!-- End contact-form -->
+					
+				</div>
+				
+			</div>
+		
+		</section>
+			
+		==============================================
+		MAP
+		===============================================
+		<section id="map">
+		
+			<div id="gmap"></div>
+		
+		</section>
+		
+		<!-- ==============================================
+		FOOTER
+		=============================================== -->	
+		
+		<footer id="main-footer" class="add-padding bg-color3 border-top-color2">
+		
+			<div class="container">
+			
+				<ul class="social-links text-center">
+					
+					<li><a href="https://github.com/hockey2249"><i class="fa fa-github fa-fw" target=_blank></i></a></li>
+					<li><a href="https://www.linkedin.com/in/kyle-gibbons" target=_blank><i class="fa fa-linkedin fa-fw"></i></a></li>
+				</ul>
+			
+				<p class="text-center">&copy; 2016 - All rights reserved</p>
+				<p class="text-center">Made by Kyle Gibbons</p>
+			
+			</div>
+			
+		</footer>
+		
+		<!-- ==============================================
+		SCRIPTS
+		=============================================== -->	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
+		
+		<script src="assets/js/libs/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.scrollto.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/jquery.masonry.min.js"></script>
+		<script src="assets/js/jquery.flexslider.min.js"></script>
+		<script src="assets/js/jquery.backstretch.min.js"></script>
+		<script src="assets/js/twitterFetcher_min.js"></script>
+		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script src="assets/js/contact.js"></script>
+		<script src="assets/js/scripts.js"></script>
+		
+		<script>
+		
+			var mapPoint = {
+					'lat': 39.742043,
+					'lng': -104.991531,
+					'zoom' : 15,
+					'infoText':'<p>Kyle Gibbons\
+								<br/>Denver\
+								<br/>CO 80204</p>',
+					'linkText':'View on Google Maps',
+					'mapAddress':'Denver CO, 80204',
+					'icon': 'assets/images/pin-dark.png'
+				};
+			
+		</script>
+		
+	</body>
+	
+</html>
