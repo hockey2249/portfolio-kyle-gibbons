@@ -484,6 +484,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     color:#fff;
     overflow: hidden;
     position: relative;
+
 }
 
 #portfolio::before {
@@ -728,6 +729,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	opacity:0;
     letter-spacing: 0.02em;
     overflow:visible !important;
+    color: black;
 }
 
 .touch #project-preview{
